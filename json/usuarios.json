@@ -1,0 +1,39 @@
+[
+    {
+        "Usuario": "Diegof",
+        "Contraseña": "Diego123",
+        "Nombre": "Diego",
+        "Apellido": "Fernandez",
+        "Tipo_de_Usuario": "Jefe",
+        "Correo": "diegofdez2000@gmail.com"
+    },
+
+    {
+        "Usuario": "SantA",
+        "Contraseña": "jalt456",
+        "Nombre": "Santiago",
+        "Apellido": "Altamar",
+        "Tipo_de_Usuario": "Chef",
+        "Correo": "Santiago20@hotmail.com"
+    },
+
+    {
+        "Usuario": "Carlo2",
+        "Contraseña": "car123",
+        "Nombre": "Carlos",
+        "Apellido": "Arevalo",
+        "Tipo_de_Usuario": "Cocinero",
+        "Correo": "Carlos2@gmail.com"
+    },
+    {
+        "Usuario": "Juls",
+        "Contraseña": "1234",
+        "Nombre": "Administrador",
+        "Apellido": "Api",
+        "Tipo_de_Usuario": "Administrador",
+        "Correo": "Prueba"
+    }
+
+    
+]
+

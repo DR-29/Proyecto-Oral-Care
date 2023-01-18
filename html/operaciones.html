@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+    <title>Operaciones </title>
+    <link rel="icon" type="image/jpg" href="../img/logoo.png"/>
+    <meta name="viewport" content="width=device-width,user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimun-scale=1.0">
+    <script src="https://kit.fontawesome.com/a13612c050.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    
+    <script src="../js/bootstrap.min.js"></script>
+	
+</head><br> 
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="margin-top: -30px;">
+      <img src="../img/logo-blanco-1-300x83.png " alt="..." width="10% ">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="links">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../../index.html"><span class="fs-5 text-light fw-bold  ">Inicio</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="promociones.html"><span class="fs-5 text-light fw-bold  ">Promociones</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="contactenos1.html"><span class="fs-5 text-light fw-bold  ">Contactenos</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="trabajo.html"><span class="fs-5 text-light fw-bold  ">Trabaje con nosotros</span></a>
+              </li>
+             
+            </ul>
+           
+          </div>
+            <div class="d-flex" id="barra">
+              <a class="nav-link active btn btn-outline-info" aria-current="page"  href="html/login.html">Iniciar sesion</a>
+            </div>
+          </div>
+        </div>
+    </nav>   
+  
+      
+  </header><br>
+<body>
+  <div class="container">
+
+    <h2>Mis Gastos</h2> <br>
+       
+        
+
+        <p>En este espacio usted podra gestionar su dinero </p>
+
+
+    <div class="row">
+        <div class="col-xl-6 col-lg-6  col-md-6  col-sm-6 col-6  ">
+                <form id="miForm"  autocomplete="off">
+                    <label > Valor 1: </label>
+                    <input type="number" id="txtprimervalor" class="form-control" name="txtprimervalor" > <br>
+                    <br>
+                  
+                    <label > Valor 2: </label>
+                    <input type="number" id="txtsegundovalor" class="form-control" name="txtsegundovalor" >  <br>
+                    <br>
+         
+
+                    <input type="submit"  id="btnsuma"  value="Sumar" class="btn btn-primary">
+                    <input type="submit"  id="btnresta"  value="Restar" class="btn btn-danger">
+                    <input type="submit"  id="btnmultiplicacion"  value="Multiplicar" class="btn btn-info ">
+                    
+                    <button type="button" id="btneditar" class="btn btn-warning" >Editar</button>
+                    <button type="button" class="btn btn-success">Exportar</button>
+                
+                  </form>
+         </div>
+         <div class="col-xl-6 col-lg-6  col-md-6  col-sm-6 col-6  ">
+
+            
+
+         </div>
+     </div> <br>
+
+     <div id="res">
+
+    </div> <br>
+
+     <br>
+
+        
+        
+    
+    
+
+    <div id="cuadro table-responsive" >
+
+        <table class="table table-success table-striped "   id="mitabla"  >
+
+          <thead> 
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Valor 1</th>
+              <th scope="col">Valor 2</th>
+              <th scope="col">Resultado</th>
+              <th scope="col">Operacion</th>
+              <th scope="col">Opcion</th>
+            </tr>
+          </thead>
+
+          <tbody>
+
+
+          </tbody>
+        </table>
+            
+        
+
+    </div>
+
+    
+      
+
+</div>
+
+<script src="../js/gastos.js"></script>
+<script src="../js/operaciones.js"></script>
+</body>
+
+</html>
